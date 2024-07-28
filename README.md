@@ -1,5 +1,51 @@
 # CodeAlpha_Project_Predictive-Modeling-with-Linear-Regression
-House price prediction
+
+# House Price Prediction
+
+This project leverages machine learning to predict house prices using a dataset of house sales in Seattle, USA. The primary goal is to build a linear regression model that accurately predicts house prices based on various features.
+
+## Project Structure
+
+1. **Data Preparation:**
+   - Loading the dataset `kc_house_data.csv`.
+   - Exploring and processing the data to prepare relevant features for the model.
+   - Visualizing data distributions and identifying outliers.
+
+2. **Modeling:**
+   - Using linear regression to build the price prediction model.
+   - Splitting the dataset into training and testing sets.
+   - Applying logarithmic transformation to certain features to improve model accuracy.
+
+3. **Model Evaluation:**
+   - Evaluating the model using metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), and R² Score.
+   - Visualizing predictions against actual values.
+
+4. **Deployment:**
+   - Saving the trained model in `pkl` format for local deployment.
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/house_price_prediction.git
+   ```
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Load the saved model (`model.pkl`).
+2. Use the `pipeline` function to predict the price of a house based on its features.
+
+## Contribution
+
+Contributions are welcome! If you would like to contribute, please submit a pull request with a detailed description of the changes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## ML-Model-Flask-Deployment
 This is a demo project to elaborate how Machine Learn Models are deployed on production using Flask API
