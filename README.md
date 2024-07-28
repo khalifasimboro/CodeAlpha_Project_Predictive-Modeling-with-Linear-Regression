@@ -27,7 +27,7 @@ This project leverages machine learning to predict house prices using a dataset 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/house_price_prediction.git
+   git clone https://github.com/Khalifasimboro/CodeAlpha_Project_Predictive-Modeling-with-Linear-Regression
    ```
 2. Install dependencies:
    ```
@@ -38,10 +38,6 @@ This project leverages machine learning to predict house prices using a dataset 
 
 1. Load the saved model (`model.pkl`).
 2. Use the `pipeline` function to predict the price of a house based on its features.
-
-## Contribution
-
-Contributions are welcome! If you would like to contribute, please submit a pull request with a detailed description of the changes.
 
 ## License
 
@@ -89,3 +85,6 @@ Run the beow command to send the request with some pre-popuated values -
 ```
 python request.py
 ```
+## Contribution
+
+Contributions are welcome! If you would like to contribute, please submit a pull request with a detailed description of the changes.
